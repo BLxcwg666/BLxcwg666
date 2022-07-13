@@ -1,0 +1,13 @@
+- 👋 Hi, I’m @BLxcwg666
+- 👀 I’m interested in Building Website,Coding and Network
+- 🌱 I’m currently learning C++
+- 💞️ I’m looking to collaborate on Building Minecraft Server and Building Website
+- 📫 You can E-mail me to xcwg1511@foxmail.com，or on Telegram @BLxcwg666
+- 🔍 My Website is https://blog.cyznb.eu.org/
+
+- 👋 你好，我是小陈网管
+- 👀 我对于搭建网站，写代码和网络方面感兴趣
+- 🌱 我目前在学习C++
+- 💞️ 我希望有人和我合作一起搭建Minecraft服务器以及搭建网站
+- 📫 你可以通过E-mail联系我：xcwg1511@foxmail.com，或者在Telegram上：@BLxcwg666，又或者在QQ上：424634468
+- 🔍 我的网站是 https://blog.cyznb.eu.org
