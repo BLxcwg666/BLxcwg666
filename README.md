@@ -35,4 +35,3 @@
   <img src="https://github-readme-stats.vercel.app/api?username=BLxcwg666&show_icons=true" alt="GitHub Stats">
 </p>
 
-<p>收！</p>
