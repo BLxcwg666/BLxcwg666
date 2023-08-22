@@ -26,6 +26,15 @@
 - 🐦 Twitter：@BLxcwg666
 - 🌐 个人网站：https://www.xcnya.cn / https://blog.xcnya.cn
 
+### 捐赠猫猫
+捐赠即意味该行为完全自愿，您无法从这里得到任何回报  
+
+- ₿ BTC：`18H4VWvgWM1c2XcsF5fXa81SoCyfimvhs2`
+- Ξ ETH：`0xd1287f11128e26d4d15799d753ba9f6f25a933da`
+- ◇ TON：`EQDlUgpCnyLac1-Lo5L3urSDKGu5LZjpB4ZFengUYpK9qF-h`
+- ₮ USDT(TRC-20)：`TC3RxskeYotkMaCNHsJnFnsQf2PnccD1Wj`
+- ₮ USDT(ERC-20)：`0xd1287f11128e26d4d15799d753ba9f6f25a933da`
+
 ### 🌟 一些废话
 
 我相信 [美好的事情，即将发生]  
