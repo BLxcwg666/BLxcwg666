@@ -13,7 +13,7 @@
 - 熟练掌握 VB、C++、FoxPro、SQL、Java、Python、JavaScript、Node.js、Rust、Go 等单词的拼写
 - 熟悉 Windows、Winphone、Linux、Mac、Android、iOS 等操作系统的开关机
 - 有 1.5 年 Minecraft 服务器经验，2.5 年 Ctrl+C & Ctrl+V 经验，3.5 年吹牛逼经验，4.5 年摆烂经验
-- 十分擅长服务器运维 / Cloudflare WAF / 网站搭建 / 喵喵叫（?）
+- 擅长服务器运维 / Cloudflare WAF / 网站搭建 / 喵喵叫（?）
 
 ### 📫 有事找我？
 
