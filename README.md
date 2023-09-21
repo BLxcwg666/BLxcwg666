@@ -1,5 +1,5 @@
-# <p align="center">👋 你好，我是 [BLxcwg666]！</p>
-<p align="center">很高兴遇见你！是猫猫，热爱计算机互联网事业，对新事物充满好奇.</p>
+# <p align="center">👋 你好，我是 BLxcwg666！</p>
+<p align="center">（a.k.a 小陈网管）很高兴遇见你！是猫猫，热爱计算机互联网事业，对新事物充满好奇.</p>
 
 ### 🚀 关于我
 
