@@ -22,8 +22,8 @@
 
 - 📧 E-mail：me@xcnya.cn / huixcwg@gmail.com
 - 🐧 Tencent QQ：0x194f6864
-- ✈ Telegram：@xcnya / @xcnyacn
-- 🐦 Twitter：@BLxcwg666
+- ✈ Telegram：<a href="https://t.me/xcnya">@xcnya</a> / <a href="https://t.me/xcnyacn">@xcnyacn</a>
+- 🐦 Twitter：<a href="https://twitter.com/BLxcwg666">@BLxcwg666</a>
 - 🌐 个人网站：https://www.xcnya.cn / https://blog.xcnya.cn
 
 ### ❤️ 捐赠猫猫
