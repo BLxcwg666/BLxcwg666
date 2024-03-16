@@ -230,12 +230,40 @@
 
                 <div class="rin-card-part" id="last">
                     <div class="rin-card-title2">BLxcwg666</div>
-                    <div class="rin-card-content">命に嫌われている。</div>
+                    <div class="rin-card-content">「命に嫌われている」</div>
                 </div>
 
                 <div class="rin-card-part" id="footer">
                     <div class="rin-card-content">©2019-2024 BLxcwg666 | Made with love by Seirin
                         <br><a href="https://beian.miit.gov.cn">闽ICP备2021004171号-7</a>
+                        <br><span id="runtime"></span>
+
+                        <script>
+                            function updateTime() {
+                                var now = new Date();
+                                var start = new Date("2019-7-25"); // 开始时间
+                                var diff = now - start; // 时间差
+                        
+                                var years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+                                diff -= years * (1000 * 60 * 60 * 24 * 365);
+                                var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                diff -= days * (1000 * 60 * 60 * 24);
+                                var hours = Math.floor(diff / (1000 * 60 * 60));
+                                diff -= hours * (1000 * 60 * 60);
+                                var minutes = Math.floor(diff / (1000 * 60));
+                                diff -= minutes * (1000 * 60);
+                                var seconds = Math.floor(diff / 1000);
+                        
+                                var runtimeElement = document.getElementById("runtime");
+                                runtimeElement.innerText = "已在风雨中度过 " + years + " 年 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
+                            }
+                        
+                            // 初始调用一次
+                            updateTime();
+                        
+                            // 每秒更新一次
+                            setInterval(updateTime, 1000);
+                        </script>
                     </div>
                 </div>
             </div>
