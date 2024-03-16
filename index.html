@@ -220,13 +220,16 @@
                   var linksContainer = document.getElementById('links');
                   links.forEach(function(link) {
                     var linkElement = document.createElement('div');
-                    linkElement.innerHTML = ` < a href = "${link.url}"target = "_blank" > <div class = "item" > <div class = "avatar" > <img src = "${link.avatar}" ></div>
-													<div class="inner">
-														<h5>${link.name}</h5 > <p > $ {
-                      link.description
-                    } < /p>
-													</div > </div>
-											</a > `;
+					linkElement.innerHTML = `
+						<a href="${link.url}" target="_blank">
+							<div class="item">
+								<div class="avatar"> <img src="${link.avatar}"> </div>
+								<div class="inner">
+									<h5>${link.name}</h5>
+									<p>${link.description}</p>
+								</div>
+							</div>
+						</a>`;
                     linksContainer.appendChild(linkElement);
                   });
                 } else {
