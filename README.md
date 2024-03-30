@@ -13,7 +13,8 @@
 
 ### 💻 开发环境
 [![Windows 10](https://img.shields.io/badge/Windows_10-165ccc?style=for-the-badge&logo=windows-10&logoColor=white)](https://zh.wikipedia.org/wiki/Windows_10)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu_22.04-cc4116?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu_20.04-cc4116?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
+[![Debian](https://img.shields.io/badge/Debian_12-c70137?style=for-the-badge&logo=debian&logoColor=white)](https://debian.org)
 [![Google Chrome](https://img.shields.io/badge/Google_Chrome-e74033?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://chrome.google.com)
 [![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com)
 [![VS](https://img.shields.io/badge/Vistual_Studio-9745de.svg?&style=for-the-badge&logo=visual-studio&logoColor=white)](https://visualstudio.microsoft.com/zh-hans/)
