@@ -16,7 +16,6 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu_22.04-cc4116?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
 [![Google Chrome](https://img.shields.io/badge/Google_Chrome-e74033?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://chrome.google.com)
 [![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com)
-[![WebStorm](https://img.shields.io/badge/WebStorm_2023.3.4-086cf7.svg?style=for-the-badge&logo=webstorm&logoColor=white)](https://www.jetbrains.com/zh-cn/webstorm/)
 [![VS](https://img.shields.io/badge/Vistual_Studio-9745de.svg?&style=for-the-badge&logo=visual-studio&logoColor=white)](https://visualstudio.microsoft.com/zh-hans/)
 
 
