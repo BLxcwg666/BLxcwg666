@@ -1,5 +1,5 @@
-# <p align="center">👋 你好，我是 BLxcwg666！</p>
-<p align="center">（a.k.a 小陈网管）很高兴遇见你！是猫猫，热爱计算机互联网事业，对新事物充满好奇.<br/></p>
+# <p align="center">👋 你好，我是 libxcnya.so！</p>
+<p align="center">（a.k.a BLxcwg666）很高兴遇见你！是猫猫，热爱计算机互联网事业，对新事物充满好奇.<br/></p>
 <p align="center"><a href="https://wakatime.com/@018c29a9-6bba-4290-b83c-e1d1582f0233"><img src="https://wakatime.com/badge/user/018c29a9-6bba-4290-b83c-e1d1582f0233.svg"/></a></p>
 
 ### 🚀 关于我
