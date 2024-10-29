@@ -47,6 +47,8 @@
 - ◇ TON：`EQDlUgpCnyLac1-Lo5L3urSDKGu5LZjpB4ZFengUYpK9qF-h`
 - ₮ USDT(TRC-20)：`TC3RxskeYotkMaCNHsJnFnsQf2PnccD1Wj`
 - ₮ USDT(ERC-20)：`0xd1287f11128e26d4d15799d753ba9f6f25a933da`
+- ₮ USDT(Polygon): `0xd1287f11128E26d4d15799d753ba9F6f25a933da`
+
 
 -----
 ![Count](https://count.getloli.com/get/@BLxcwg666?theme=moebooru)
