@@ -1,5 +1,5 @@
-# <p align="center">👋 你好，我是 BLxcwg666！</p>
-<p align="center">（a.k.a 小陈网管）很高兴遇见你！是猫猫，热爱计算机互联网事业，对新事物充满好奇.<br/></p>
+# <p align="center">👋 你好，我是 libxcnya.so！</p>
+<p align="center">（a.k.a BLxcwg666）很高兴遇见你！是猫猫，热爱计算机互联网事业，对新事物充满好奇.<br/></p>
 <p align="center"><a href="https://wakatime.com/@018c29a9-6bba-4290-b83c-e1d1582f0233"><img src="https://wakatime.com/badge/user/018c29a9-6bba-4290-b83c-e1d1582f0233.svg"/></a></p>
 
 ### 🚀 关于我
@@ -13,10 +13,10 @@
 
 ### 💻 开发环境
 [![Windows 10](https://img.shields.io/badge/Windows_10-165ccc?style=for-the-badge&logo=windows-10&logoColor=white)](https://zh.wikipedia.org/wiki/Windows_10)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu_22.04-cc4116?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu_20.04-cc4116?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
+[![Debian](https://img.shields.io/badge/Debian_12-c70137?style=for-the-badge&logo=debian&logoColor=white)](https://debian.org)
 [![Google Chrome](https://img.shields.io/badge/Google_Chrome-e74033?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://chrome.google.com)
 [![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com)
-[![WebStorm](https://img.shields.io/badge/WebStorm_2023.3.4-086cf7.svg?style=for-the-badge&logo=webstorm&logoColor=white)](https://www.jetbrains.com/zh-cn/webstorm/)
 [![VS](https://img.shields.io/badge/Vistual_Studio-9745de.svg?&style=for-the-badge&logo=visual-studio&logoColor=white)](https://visualstudio.microsoft.com/zh-hans/)
 
 
@@ -47,5 +47,8 @@
 - ◇ TON：`EQDlUgpCnyLac1-Lo5L3urSDKGu5LZjpB4ZFengUYpK9qF-h`
 - ₮ USDT(TRC-20)：`TC3RxskeYotkMaCNHsJnFnsQf2PnccD1Wj`
 - ₮ USDT(ERC-20)：`0xd1287f11128e26d4d15799d753ba9f6f25a933da`
+- ₮ USDT(Polygon): `0xd1287f11128E26d4d15799d753ba9F6f25a933da`
 
 
+-----
+![Count](https://count.getloli.com/get/@BLxcwg666?theme=moebooru)
