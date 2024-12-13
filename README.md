@@ -33,11 +33,11 @@
 ### 📫 有事找我？
 
 注：仅在节假日 / 非工作日回复消息
-- 📧 E-mail：me@nekorua.com / huixcwg@gmail.com
+- 📧 E-mail：me@xcnya.cn / huixcwg@gmail.com
 - 🐧 Tencent QQ：0x194f6864
 - ✈ Telegram：<a href="https://t.me/xcnya">@xcnya</a> / <a href="https://t.me/xcnyacn">@xcnyacn</a>
 - 🐦 Twitter：<a href="https://twitter.com/BLxcwg666">@BLxcwg666</a>
-- 🌐 个人网站：https://www.nekorua.com / https://blog.nekorua.com
+- 🌐 个人网站：https://www.xcnya.cn / https://blog.xcnya.cn
 
 ### ❤️ 给我打钱
 捐赠即意味该行为完全自愿，您无法从这里得到任何回报  
