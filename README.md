@@ -3,7 +3,7 @@
 <p align="center"><a href="https://wakatime.com/@018c29a9-6bba-4290-b83c-e1d1582f0233"><img src="https://wakatime.com/badge/user/018c29a9-6bba-4290-b83c-e1d1582f0233.svg"/></a></p>
 
 ### 🚀 关于我
-- 😊 INFP-T / ≈ 16 y.o. / Student / Developer
+- 😊 INTP-T / ≈ 16 y.o. / Student / Developer
 - 🌱 学习中：C/C++ / Java / Node.js / PHP / Python
 - 🔭 擅长的：服务器运维 / 网站搭建 / 摆烂 / Cloudflare WAF / 喵喵叫（?）
 
