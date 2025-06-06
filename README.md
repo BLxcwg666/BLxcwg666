@@ -13,14 +13,15 @@
 
 ### 💻 开发环境
 [![Windows 10](https://img.shields.io/badge/Windows_10-165ccc?style=for-the-badge&logo=windows-10&logoColor=white)](https://zh.wikipedia.org/wiki/Windows_10)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu_20.04-cc4116?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com)
 [![Debian](https://img.shields.io/badge/Debian_12-c70137?style=for-the-badge&logo=debian&logoColor=white)](https://debian.org)
 [![Google Chrome](https://img.shields.io/badge/Google_Chrome-e74033?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://chrome.google.com)
-[![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com)
-[![VS](https://img.shields.io/badge/Vistual_Studio-9745de.svg?&style=for-the-badge&logo=visual-studio&logoColor=white)](https://visualstudio.microsoft.com/zh-hans/)
+[![InetlliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-0a59a6?style=for-the-badge&logo=intellijidea&logoColor=white)](https://www.jetbrains.com/zh-cn/idea/)
+[![WebStorm](https://img.shields.io/badge/WebStorm-ff7a00?style=for-the-badge&logo=webstorm&logoColor=white)](https://www.jetbrains.com/zh-cn/webstorm/)
+[![Goland](https://img.shields.io/badge/GoLand-44b621?style=for-the-badge&logo=goland&logoColor=white)](https://www.jetbrains.com/zh-cn/go/)
 
 
 ### ⌨️ 会的东西
+[![Java](https://img.shields.io/badge/Java-b5731b?style=for-the-badge&logo=java&logoColor=white)](https://java.com)
 [![Node](https://img.shields.io/badge/Node.JS-3c823b?&style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![HTML](https://img.shields.io/badge/HTML-dd4b25?&style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![JS](https://img.shields.io/badge/JavaScript-efd81d?&style=for-the-badge&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
