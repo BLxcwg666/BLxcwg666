@@ -4,7 +4,8 @@
 
 ### 🚀 关于我
 - 😊 INTP-T / ≈ 16 y.o. / Student / Developer
-- 🌱 学习中：C/C++ / Java / Node.js / PHP / Python
+- 🔨 技术栈：Node.js / Java / Python / React / PHP
+- 🌱 学习中：C/C++ / Go
 - 🔭 擅长的：服务器运维 / 网站搭建 / 摆烂 / Cloudflare WAF / 喵喵叫（?）
 
 ### ℹ️ Status
@@ -43,11 +44,11 @@
 ### ❤️ 给我打钱
 捐赠即意味该行为完全自愿，您无法从这里得到任何回报  
 
-- Ξ ETH：`0x7828901cAaC5fF79dE53BA968995C82a36b1bAf9`
+- Ξ ETH：`0x7a7B6eec4b60Bf76D1f96575C3488599791D35C0`
 - ◇ TON：`EQDlUgpCnyLac1-Lo5L3urSDKGu5LZjpB4ZFengUYpK9qF-h`
-- ₮ USDT(TRC-20)：`TC3RxskeYotkMaCNHsJnFnsQf2PnccD1Wj`
-- ₮ USDT(ERC-20)：`0x7828901cAaC5fF79dE53BA968995C82a36b1bAf9`
-- ₮ USDT(Polygon): `0x7828901cAaC5fF79dE53BA968995C82a36b1bAf9`
+- ₮ USDT(TRC-20)：`TM8qJkuiJgDxfBgumtYK5MafngPuN1Tgov`
+- ₮ USDT(BSC)：`0x7a7B6eec4b60Bf76D1f96575C3488599791D35C0`
+- ₮ USDT(Polygon): `0x7a7B6eec4b60Bf76D1f96575C3488599791D35C0`
 
 
 -----
