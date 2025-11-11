@@ -40,7 +40,7 @@ function Footer() {
   return (
     <div className="footer ch" style={{ textAlign: 'center' }}>
       <div className="container">
-        <h3>NekoRua</h3>
+        <h3>libxcnya の Catnest</h3>
         <p>「命に嫌われている」</p>
         <br />
         <p className="c">
