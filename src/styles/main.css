@@ -176,6 +176,17 @@ nav a:hover {
     -moz-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1)
 }
 
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .ch h2.chtitle {
     padding-bottom: 30px;
     font-size: 26px;

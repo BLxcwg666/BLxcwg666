@@ -1,8 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faGithub, faBilibili, faTelegram } from '@fortawesome/free-brands-svg-icons';
 import { faBookOpen, faChartLine, faServer, faMusic } from '@fortawesome/free-solid-svg-icons';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 function FindMe() {
+  const [ref, isVisible] = useScrollAnimation();
   const mainLinks = [
     { 
       name: '我的博客!', 
@@ -58,7 +60,7 @@ function FindMe() {
   ];
 
   return (
-    <div className="find ch">
+    <div ref={ref} className={`find ch scroll-animate ${isVisible ? 'visible' : ''}`}>
       <div className="container links">
         <h2 className="chtitle">
           我<span>出没的地方</span>？

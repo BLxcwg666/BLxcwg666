@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 function Friends() {
   const [links, setLinks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [ref, isVisible] = useScrollAnimation();
 
   useEffect(() => {
     const fetchLinks = async () => {
@@ -40,7 +42,7 @@ function Friends() {
   }, []);
 
   return (
-    <div className="gate ch">
+    <div ref={ref} className={`gate ch scroll-animate ${isVisible ? 'visible' : ''}`}>
       <div className="container links">
         <h2 className="chtitle">
           我的<span>好朋友</span>们

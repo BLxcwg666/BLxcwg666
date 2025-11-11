@@ -19,8 +19,10 @@ import {
   faCat
 } from '@fortawesome/free-solid-svg-icons';
 import { SiTypescript } from 'react-icons/si';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 function About() {
+  const [ref, isVisible] = useScrollAnimation();
   const techStack = [
     { name: 'HTML/CSS', icon: faHtml5, color: '#e34f26', desc: '造点破烂', isFontAwesome: true },
     { name: 'JavaScript', icon: faJs, color: '#f7df1e', desc: '会写亿点点', isFontAwesome: true },
@@ -41,7 +43,7 @@ function About() {
   ];
 
   return (
-    <div className="ch about">
+    <div ref={ref} className={`ch about scroll-animate ${isVisible ? 'visible' : ''}`}>
       <div className="container">
         <h2 className="chtitle">
           Who am <span>libxcnya.so</span>？

@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 function RecentPosts() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [ref, isVisible] = useScrollAnimation();
 
   useEffect(() => {
     const fetchPosts = async () => {
@@ -59,7 +61,7 @@ function RecentPosts() {
   };
 
   return (
-    <div className="posts ch">
+    <div ref={ref} className={`posts ch scroll-animate ${isVisible ? 'visible' : ''}`}>
       <div className="container">
         <h2 className="chtitle">
           最近的<span>文章</span>
