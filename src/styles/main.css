@@ -419,6 +419,75 @@ ul.skill li .progress div {
     border-top: 3px solid #fff
 }
 
+.about .tech-stack {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.about .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 15px;
+    background-color: hsla(0, 0%, 100%, .03);
+    border-radius: 12px;
+    transition: all .3s;
+    opacity: .85;
+}
+
+.about .tech-item:hover {
+    opacity: 1;
+    background-color: hsla(0, 0%, 100%, .08);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .3);
+}
+
+.about .tech-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 32px;
+    color: #fff;
+    transition: all .3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+}
+
+.about .tech-item:hover .tech-icon {
+    transform: scale(1.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .4);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1.15);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.about .tech-name {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #fff;
+    letter-spacing: .05em;
+}
+
+.about .tech-desc {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, .5);
+    line-height: 1.4;
+}
+
 .links a {
     color: #fff;
     text-decoration: none
@@ -920,6 +989,31 @@ ul.skill li .progress div {
 
     .about ul.skill li {
         width: 100%
+    }
+
+    .about .tech-stack {
+        grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .about .tech-item {
+        padding: 15px 10px;
+    }
+
+    .about .tech-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .about .tech-name {
+        font-size: 13px;
+    }
+
+    .about .tech-desc {
+        font-size: 11px;
     }
 
     .find .links .col-3 {

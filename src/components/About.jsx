@@ -1,13 +1,43 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+  faHtml5,
+  faJava,
+  faJs, 
+  faReact, 
+  faNodeJs, 
+  faPhp, 
+  faPython,
+  faDocker, 
+  faGitAlt,
+  faLinux
+} from '@fortawesome/free-brands-svg-icons';
+import { 
+  faServer, 
+  faDatabase, 
+  faTerminal,
+  faCopy,
+  faCat
+} from '@fortawesome/free-solid-svg-icons';
+import { SiTypescript } from 'react-icons/si';
+
 function About() {
-  const skills = [
-    { name: 'HTML', width: '70%', desc: '造点破烂' },
-    { name: 'C/C++', width: '30%', desc: '能看懂就好' },
-    { name: 'PHP', width: '40%', desc: '会改别人写好的' },
-    { name: 'Node.js', width: '85%', desc: '会写一点点' },
-    { name: '复制/粘贴', width: '85%', desc: '我事CV工程师' },
-    { name: '运维能力', width: '95%', desc: '诶这个我熟!' },
-    { name: '创新能力', width: '5%', desc: '这个真没有' },
-    { name: '喵喵叫(?)', width: '100%', desc: '喵喵喵喵喵~' }
+  const techStack = [
+    { name: 'HTML/CSS', icon: faHtml5, color: '#e34f26', desc: '造点破烂', isFontAwesome: true },
+    { name: 'JavaScript', icon: faJs, color: '#f7df1e', desc: '会写亿点点', isFontAwesome: true },
+    { name: 'TypeScript', icon: SiTypescript, color: '#3178c6', desc: '哎呀能用就行', isFontAwesome: false },
+    { name: 'React', icon: faReact, color: '#61dafb', desc: '组件拼装师', isFontAwesome: true },
+    { name: 'Node.js', icon: faNodeJs, color: '#339933', desc: '会写一点点', isFontAwesome: true },
+    { name: 'Java', icon: faJava, color: '#E76F00', desc: '弹簧靴 & 方块人领域低手', isFontAwesome: true },
+    { name: 'PHP', icon: faPhp, color: '#777bb4', desc: '会改别人写好的', isFontAwesome: true },
+    { name: 'Python', icon: faPython, color: '#3776ab', desc: '能看懂就好', isFontAwesome: true },
+    { name: 'Docker', icon: faDocker, color: '#2496ed', desc: '容器搬运工', isFontAwesome: true },
+    { name: 'Linux', icon: faLinux, color: '#fcc624', desc: '诶这个我熟!', isFontAwesome: true },
+    { name: 'Git', icon: faGitAlt, color: '#f05032', desc: 'commit && push', isFontAwesome: true },
+    { name: 'Database', icon: faDatabase, color: '#4479a1', desc: '增删改查', isFontAwesome: true },
+    { name: 'DevOps', icon: faServer, color: '#7ed321', desc: '运维能力MAX', isFontAwesome: true },
+    { name: 'Terminal', icon: faTerminal, color: '#4ec9b0', desc: '命令行战士', isFontAwesome: true },
+    { name: 'CV大法', icon: faCopy, color: '#f5a623', desc: 'Ctrl+C/V', isFontAwesome: true },
+    { name: '喵喵叫', icon: faCat, color: '#ff69b4', desc: '喵喵喵喵喵~', isFontAwesome: true }
   ];
 
   return (
@@ -35,17 +65,24 @@ function About() {
               </div>
             </div>
           </div>
-          <ul className="skill clear">
-            {skills.map((skill, index) => (
-              <li key={index}>
-                <p>{skill.name}</p>
-                <div className="progress">
-                  <div style={{ width: skill.width }}></div>
-                  <span>{skill.desc}</span>
+          <div className="tech-stack">
+            {techStack.map((tech, index) => {
+              const Icon = tech.icon;
+              return (
+                <div key={index} className="tech-item">
+                  <div className="tech-icon" style={{ backgroundColor: tech.color }}>
+                    {tech.isFontAwesome ? (
+                      <FontAwesomeIcon icon={tech.icon} />
+                    ) : (
+                      <Icon />
+                    )}
+                  </div>
+                  <h4 className="tech-name">{tech.name}</h4>
+                  <p className="tech-desc">{tech.desc}</p>
                 </div>
-              </li>
-            ))}
-          </ul>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
