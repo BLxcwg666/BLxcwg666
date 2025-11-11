@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 
-console.log('' +
+console.info('' +
     '________________                                                    \n' +
     '___  /__(_)__  /_____  ___________________  _______ _ _____________ \n' +
     '__  /__  /__  __ \\_  |/_/  ___/_  __ \\_  / / /  __ `/ __  ___/  __ \\\n' +
