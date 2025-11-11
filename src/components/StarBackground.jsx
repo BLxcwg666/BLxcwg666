@@ -91,17 +91,10 @@ function StarBackground() {
       rotate(0.025);
     };
 
-    // Use requestAnimationFrame polyfill pattern
-    const requestAnimFrame = window.requestAnimationFrame || 
-                            window.webkitRequestAnimationFrame || 
-                            window.mozRequestAnimationFrame || 
-                            window.oRequestAnimationFrame || 
-                            window.msRequestAnimationFrame || 
-                            function(callback) { window.setTimeout(callback, 1000 / 60); };
-
+    // Animation loop using modern requestAnimationFrame
     const animationLoop = () => {
       animate();
-      animationIdRef.current = requestAnimFrame(animationLoop);
+      animationIdRef.current = requestAnimationFrame(animationLoop);
     };
 
     animationLoop();

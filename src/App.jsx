@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import './styles/h.9c69ed6c.css';
-import './styles/nekotora.99cf6f8c.css';
+import './styles/main.css';
+import './styles/icons.css';
 import Nav from './components/Nav';
 import StarBackground from './components/StarBackground';
 import Intro from './components/Intro';
@@ -11,20 +11,30 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
-    // Handle scroll event for background fixed effect
+    let ticking = false;
+    
+    // Throttle scroll event for better performance
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      const windowHeight = window.innerHeight;
-      const background = document.querySelector('.background');
-      
-      if (scrollTop > 0.6 * windowHeight) {
-        background?.classList.add('fixed');
-      } else {
-        background?.classList.remove('fixed');
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const scrollTop = window.scrollY;
+          const windowHeight = window.innerHeight;
+          const background = document.querySelector('.background');
+          
+          if (scrollTop > 0.6 * windowHeight) {
+            background?.classList.add('fixed');
+          } else {
+            background?.classList.remove('fixed');
+          }
+          
+          ticking = false;
+        });
+        
+        ticking = true;
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 

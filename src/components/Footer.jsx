@@ -38,37 +38,35 @@ function Footer() {
   }, []);
 
   return (
-    <center>
-      <div className="footer ch">
-        <div className="container">
-          <h3>NekoRua</h3>
-          <p>「命に嫌われている」</p>
+    <div className="footer ch" style={{ textAlign: 'center' }}>
+      <div className="container">
+        <h3>NekoRua</h3>
+        <p>「命に嫌われている」</p>
+        <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+          <img width="83" height="42" src="https://cdn.xcnya.cn/Basic/sponsors/upyun.webp" alt="又拍云" />
+        </a>
+        <br />
+        <span>
           <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-            <img width="83" height="42" src="https://cdn.xcnya.cn/Basic/sponsors/upyun.webp" alt="又拍云" />
+            本站由 又拍云 提供云存储 / CDN 加速
+          </a>
+        </span>
+        <br />
+        <p className="c">
+          Copyright © 2025 BLxcwg666
+          <br />
+          <a href="https://icp.gov.moe/?keyword=20222120" target="_blank" rel="noopener noreferrer">
+            萌ICP备20222120号
+          </a>
+          &nbsp;·&nbsp;
+          <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">
+            闽ICP备2021004171号-7
           </a>
           <br />
-          <span>
-            <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-              本站由 又拍云 提供云存储 / CDN 加速
-            </a>
-          </span>
-          <br />
-          <p className="c">
-            Copyright © 2025 BLxcwg666
-            <br />
-            <a href="https://icp.gov.moe/?keyword=20222120" target="_blank" rel="noopener noreferrer">
-              萌ICP备20222120号
-            </a>
-            &nbsp;·&nbsp;
-            <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">
-              闽ICP备2021004171号-7
-            </a>
-            <br />
-            <span id="runtime">{runtime}</span>
-          </p>
-        </div>
+          <span id="runtime">{runtime}</span>
+        </p>
       </div>
-    </center>
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 @font-face {
     font-family: nekotora;
-    src: url(../assets/fonts/nekotora.54f9b137.eot);
-    src: url(../assets/fonts/nekotora.54f9b137.eot#iefix) format("embedded-opentype"), url(../assets/fonts/nekotora.4ea5ebe6.woff2) format("woff2"), url(../assets/fonts/nekotora.9106c612.woff) format("woff"), url(../assets/fonts/nekotora.28169ea4.ttf) format("truetype");
+    src: url(../assets/fonts/nekotora.eot);
+    src: url(../assets/fonts/nekotora.eot#iefix) format("embedded-opentype"), url(../assets/fonts/nekotora.woff2) format("woff2"), url(../assets/fonts/nekotora.woff) format("woff"), url(../assets/fonts/nekotora.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
@@ -96,5 +96,3 @@
 .icon-qq:before {
     content: "\f1d6"
 }
-
-/*# sourceMappingURL=/nekotora.99cf6f8c.css.map */

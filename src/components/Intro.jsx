@@ -1,21 +1,21 @@
 import { useEffect, useState } from 'react';
 
 function Intro() {
-  const [slogan, setSlogan] = useState('坐和放宽...');
+  const [slogan, setSlogan] = useState({ text: '坐和放宽...' });
 
   useEffect(() => {
     const slogans = [
-      "希望能成为有趣的人",
-      "给时光以生命<br>给岁月以文明",
-      "你好,请多指教",
-      "一望无际的迷雾中,<br>有人在寻找光明!",
-      "你所热爱的<br>就是你的生活",
-      "当你在凝视着网页的时候<br>网页也正在凝视着你",
-      "热爱……",
-      "平凡的日常正奇迹的发生着",
-      "敬畏之心!",
-      "赞美之心!",
-      "我很好奇!"
+      { text: "希望能成为有趣的人" },
+      { text: "给时光以生命", sub: "给岁月以文明" },
+      { text: "你好,请多指教" },
+      { text: "一望无际的迷雾中,", sub: "有人在寻找光明!" },
+      { text: "你所热爱的", sub: "就是你的生活" },
+      { text: "当你在凝视着网页的时候", sub: "网页也正在凝视着你" },
+      { text: "热爱……" },
+      { text: "平凡的日常正奇迹的发生着" },
+      { text: "敬畏之心!" },
+      { text: "赞美之心!" },
+      { text: "我很好奇!" }
     ];
 
     const randomIndex = Math.floor(Math.random() * slogans.length);
@@ -26,7 +26,15 @@ function Intro() {
     <div className="ch intro">
       <div className="container">
         <div className="hello">
-          <h1 id="slogan" dangerouslySetInnerHTML={{ __html: slogan }}></h1>
+          <h1 id="slogan">
+            {slogan.text}
+            {slogan.sub && (
+              <>
+                <br />
+                {slogan.sub}
+              </>
+            )}
+          </h1>
           <h2>
             <div className="circle">
               <span></span>

@@ -2,30 +2,41 @@ import { useEffect, useState } from 'react';
 
 function Friends() {
   const [links, setLinks] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://rua.xcnya.cn/api/v2/links/all', {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-      .then(response => {
-        if (response.ok) {
-          return response.json();
+    const fetchLinks = async () => {
+      try {
+        // Use proxy in development, direct URL in production
+        const apiUrl = import.meta.env.DEV
+          ? '/api/v2/links/all'
+          : 'https://rua.xcnya.cn/api/v2/links/all';
+
+        const response = await fetch(apiUrl, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error(`Failed to request friend links: ${response.status}`);
         }
-        throw new Error('请求友链失败: ' + response.status);
-      })
-      .then(data => {
+
+        const data = await response.json();
         if (data && data.data) {
           setLinks(data.data);
         }
-      })
-      .catch(err => {
-        console.error(err);
+      } catch (err) {
+        console.error('Failed to fetch links:', err);
         setError(err.message);
-      });
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchLinks();
   }, []);
 
   return (
@@ -35,8 +46,9 @@ function Friends() {
           我的<span>好朋友</span>们
         </h2>
         <div className="clear" id="links">
+          {loading && <p style={{ color: 'rgba(255,255,255,0.6)' }}>加载中...</p>}
           {error && <p style={{ color: 'rgba(255,255,255,0.6)' }}>加载友链失败</p>}
-          {links.map((link, index) => (
+          {!loading && !error && links.map((link, index) => (
             <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
               <div className="item">
                 <div className="avatar">
