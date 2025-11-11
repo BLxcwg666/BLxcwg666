@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import './styles/main.css';
-import './styles/icons.css';
 import Nav from './components/Nav';
 import StarBackground from './components/StarBackground';
 import Intro from './components/Intro';
