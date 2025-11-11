@@ -49,7 +49,7 @@ function Friends() {
         </h2>
         <div className="clear" id="links">
           {loading && <p style={{ color: 'rgba(255,255,255,0.6)' }}>加载中...</p>}
-          {error && <p style={{ color: 'rgba(255,255,255,0.6)' }}>加载友链失败</p>}
+          {error && <p style={{ color: 'rgba(255,255,255,0.6)' }}>加载友链失败：{error}</p>}
           {!loading && !error && links.map((link, index) => (
             <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
               <div className="item">

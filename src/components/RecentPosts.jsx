@@ -75,7 +75,7 @@ function RecentPosts() {
         
         {error && (
           <p style={{ color: 'rgba(255,255,255,0.6)', textAlign: 'center', padding: '2em 0' }}>
-            加载文章失败
+            加载文章失败: {error}
           </p>
         )}
         
