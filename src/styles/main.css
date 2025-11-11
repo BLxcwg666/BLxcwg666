@@ -474,9 +474,17 @@ ul.skill li .progress div {
     width: 100px
 }
 
+.find .links .col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
 .find .links .col-3 .item {
-    width: 30.93%;
-    margin: 10px 1.2%
+    width: auto;
+    margin: 0;
+    float: none;
 }
 
 .gate #links {
@@ -799,13 +807,19 @@ ul.skill li .progress div {
         width: 100%
     }
 
+    .find .links .col-3 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
     .find .links .item {
         width: 46%;
         height: 60px;
         line-height: 60px;
         font-size: 13px;
         padding: 5px 0;
-        margin: 10px 2%
+        margin: 10px 2%;
     }
 
     .gate #links {
