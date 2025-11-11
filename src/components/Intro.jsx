@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 function Intro() {
   const [slogan, setSlogan] = useState({ text: '坐和放宽...' });
+  const [fade, setFade] = useState(true);
 
   useEffect(() => {
     const slogans = [
@@ -49,15 +50,30 @@ function Intro() {
       { text: "在无尽的scroll中", sub: "寻找那个关键的viewport" }
     ];
 
-    const randomIndex = Math.floor(Math.random() * slogans.length);
-    setSlogan(slogans[randomIndex]);
+    const getRandomSlogan = () => {
+      const randomIndex = Math.floor(Math.random() * slogans.length);
+      return slogans[randomIndex];
+    };
+
+    setSlogan(getRandomSlogan());
+
+    const interval = setInterval(() => {
+      setFade(false);
+      
+      setTimeout(() => {
+        setSlogan(getRandomSlogan());
+        setFade(true);
+      }, 1000);
+    }, 10000);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="ch intro">
       <div className="container">
         <div className="hello">
-          <h1 id="slogan">
+          <h1 id="slogan" className={fade ? 'fade-in' : 'fade-out'}>
             {slogan.text}
             {slogan.sub && (
               <>

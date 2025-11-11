@@ -1116,3 +1116,18 @@ ul.skill li .progress div {
         letter-spacing: .2em
     }
 }
+
+/* Slogan fade in/out animation */
+#slogan {
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#slogan.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#slogan.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+}
