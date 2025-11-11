@@ -44,7 +44,7 @@ function Footer() {
         <p>「命に嫌われている」</p>
         <br />
         <p className="c">
-          Copyright © 2025 BLxcwg666
+          Copyright © 2019-2025 BLxcwg666
           <br />
           <a href="https://icp.gov.moe/?keyword=20222120" target="_blank" rel="noopener noreferrer">
             萌ICP备20222120号
