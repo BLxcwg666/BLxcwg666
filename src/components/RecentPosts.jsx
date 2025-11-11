@@ -79,14 +79,14 @@ function RecentPosts() {
         
         {!loading && !error && (
           <div className="posts-grid">
-            {posts.map((post) => (
-              <a 
-                key={post.id} 
-                href={`https://blog.xcnya.cn/${post.slug}`} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="post-card"
-              >
+             {posts.map((post) => (
+               <a 
+                 key={post.id} 
+                 href={`https://blog.xcnya.cn/posts/${post.category.slug}/${post.slug}`} 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 className="post-card"
+               >
                 <div className="post-header">
                   <h3 className="post-title">{post.title}</h3>
                   <div className="post-meta">
