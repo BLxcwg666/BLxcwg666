@@ -42,15 +42,6 @@ function Footer() {
       <div className="container">
         <h3>NekoRua</h3>
         <p>「命に嫌われている」</p>
-        <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-          <img width="83" height="42" src="https://cdn.xcnya.cn/Basic/sponsors/upyun.webp" alt="又拍云" />
-        </a>
-        <br />
-        <span>
-          <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-            本站由 又拍云 提供云存储 / CDN 加速
-          </a>
-        </span>
         <br />
         <p className="c">
           Copyright © 2025 BLxcwg666
