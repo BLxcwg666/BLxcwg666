@@ -21,7 +21,7 @@ function Friends() {
         });
 
         if (!response.ok) {
-          throw new Error(`Failed to request friend links: ${response.status}`);
+          throw new Error(`Failed to fetch links: ${response.status}`);
         }
 
         const data = await response.json();
