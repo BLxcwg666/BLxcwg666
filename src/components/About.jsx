@@ -14,18 +14,18 @@ function About() {
     <div className="ch about">
       <div className="container">
         <h2 className="chtitle">
-          Who am <span>BLxcwg666</span>？
+          Who am <span>libxcnya.so</span>？
         </h2>
         <div className="clear">
           <div className="introduct">
             <img className="avatar" src="https://cdn.xcnya.cn/imgs/head1x2.webp" alt="Avatar" />
             <p style={{ paddingTop: '1em' }}>👋 Hi, Here!</p>
-            <p>你好,这里是 BLxcwg666(小陈网管),16 y.o(?),是学生,热爱计算机互联网事业,对新事物充满好奇</p>
+            <p>你好，这里是 libxcnya.so (a.k.a BLxcwg666), 16 y.o (?)，是学生，热爱计算机互联网事业，对新事物充满好奇</p>
             <p>
-              一望无际的迷雾中,有人在寻找光明!很高兴遇到你,我们一直在耕耘这么一片简单的土壤,虽然没有尽善尽美,但以初见雏形。
+              一望无际的迷雾中，有人在寻找光明！很高兴遇到你，我们一直在耕耘这么一片简单的土壤，虽然没有尽善尽美，但以初见雏形。
               <br />
               <br />
-              十年前我们仰望星空,十年后我们将俯视大地,未来的天空,必将为我们留下一片灿烂的曙光!
+              十年前我们仰望星空，十年后我们将俯视大地，未来的天空，必将为我们留下一片灿烂的曙光！
             </p>
             <div className="chatbox">
               <div className="line loading">
