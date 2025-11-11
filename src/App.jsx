@@ -5,6 +5,7 @@ import StarBackground from './components/StarBackground';
 import Intro from './components/Intro';
 import About from './components/About';
 import FindMe from './components/FindMe';
+import RecentPosts from './components/RecentPosts';
 import Friends from './components/Friends';
 import Footer from './components/Footer';
 
@@ -45,6 +46,7 @@ function App() {
         <Intro />
         <About />
         <FindMe />
+        <RecentPosts />
         <Friends />
       </div>
       <Footer />

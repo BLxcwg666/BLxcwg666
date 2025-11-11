@@ -558,6 +558,119 @@ ul.skill li .progress div {
     word-wrap: break-word;
 }
 
+.posts .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.posts .post-card {
+    background-color: hsla(0, 0%, 100%, .05);
+    border-radius: 8px;
+    padding: 25px;
+    transition: all .3s;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    min-height: 180px;
+}
+
+.posts .post-card:hover {
+    opacity: 1;
+    background-color: hsla(0, 0%, 100%, .12);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .35);
+}
+
+.posts .post-header {
+    margin-bottom: 15px;
+}
+
+.posts .post-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #fff;
+    letter-spacing: .05em;
+}
+
+.posts .post-meta {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, .5);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.posts .post-category {
+    color: hsla(0, 0%, 100%, .65);
+}
+
+.posts .post-excerpt {
+    font-size: 13px;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, .6);
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.posts .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 15px;
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+.posts .post-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.posts .post-tags .tag {
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, .5);
+    background-color: hsla(0, 0%, 100%, .08);
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.posts .post-stats {
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, .4);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.posts .separator {
+    color: hsla(0, 0%, 100%, .3);
+}
+
+.posts .view-more-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 25px;
+    transition: all .3s;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+.posts .view-more-btn:hover {
+    background-color: hsla(0, 0%, 100%, .2);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .3);
+}
+
 .footer {
     text-align: center
 }
@@ -858,6 +971,35 @@ ul.skill li .progress div {
     .gate .links .item .inner p {
         font-size: 12px;
         line-height: 1.3;
+    }
+
+    .posts .posts-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .posts .post-card {
+        padding: 20px;
+        min-height: 150px;
+    }
+
+    .posts .post-title {
+        font-size: 16px;
+    }
+
+    .posts .post-excerpt {
+        font-size: 12px;
+    }
+
+    .posts .post-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .posts .view-more-btn {
+        padding: 10px 25px;
+        font-size: 13px;
     }
 
     .footer {
