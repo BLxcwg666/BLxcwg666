@@ -10,7 +10,7 @@
 
 ### ℹ️ Status
 
-<a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=BLxcwg666&show_icons=true" alt="BLxcwg666's GitHub stats" /></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats1.netlify.app/api?username=BLxcwg666&show_icons=true" alt="BLxcwg666's GitHub stats" /></a>
 
 ### 💻 开发环境
 [![Windows 10](https://img.shields.io/badge/Windows_10-165ccc?style=for-the-badge&logo=windows-10&logoColor=white)](https://zh.wikipedia.org/wiki/Windows_10)
