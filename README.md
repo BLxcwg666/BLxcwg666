@@ -42,14 +42,9 @@
 - 🌐 个人网站：https://www.xcnya.cn / https://blog.xcnya.cn
 
 ### ❤️ 给我打钱
-捐赠即意味该行为完全自愿，您无法从这里得到任何回报  
+支持我的工作？Buy me a cofee！
 
-- Ξ ETH：`0x7a7B6eec4b60Bf76D1f96575C3488599791D35C0`
-- ◇ TON：`EQDlUgpCnyLac1-Lo5L3urSDKGu5LZjpB4ZFengUYpK9qF-h`
-- ₮ USDT(TRC-20)：`TM8qJkuiJgDxfBgumtYK5MafngPuN1Tgov`
-- ₮ USDT(BSC)：`0x7a7B6eec4b60Bf76D1f96575C3488599791D35C0`
-- ₮ USDT(Polygon): `0x7a7B6eec4b60Bf76D1f96575C3488599791D35C0`
-
+https://blog.xcnya.cn/donate.html
 
 -----
 ![Count](https://count.getloli.com/get/@BLxcwg666?theme=moebooru)
