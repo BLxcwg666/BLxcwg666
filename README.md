@@ -4,8 +4,8 @@
 
 ### 🚀 关于我
 - 😊 INTP-T / ≈ 16 y.o. / Student / Developer
-- 🔨 技术栈：Node.js / Java / Python / React / PHP
-- 🌱 学习中：C/C++ / Go
+- 🔨 技术栈：Go / Java / C# / Rust / TypeScript / React
+- 🌱 学习中：C/C++ / Rust / C#
 - 🔭 擅长的：服务器运维 / 网站搭建 / 摆烂 / Cloudflare WAF / 喵喵叫（?）
 
 ### ℹ️ Status
